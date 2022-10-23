@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;    
+    background: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background: black;
+    overflow-y: scroll;
+}
+
+.post {
+    width: 600px;
+    margin-block: 50px;
+    overflow: scroll black;
+
+}
+.header {
+    margin: 2%;
+    width: 98%;
+    display: flex;
+}
+
+#iconoHtml {
+    font-size: 40px;
+    margin-block: 20%;
+    margin-inline: 4px;
+
+}
+
+.title {
+    margin: 2px;
+}
+.title h1,h2{
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.ultimoIcono {
+    width: 100%;
+    margin: 6px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+}
+
+img {
+    width: 100%;
+    background-color: grey;
+}
+
+.icons {
+    display: flex;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-inline: 20px;
+}
+
+.icons i {
+    margin-inline: 4px;
+}
+.foot {
+    margin-top: 20px;
+    margin-inline: 20px;
+}
